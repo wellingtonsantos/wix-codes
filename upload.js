@@ -21,17 +21,15 @@ $w('#btnEnviar').onChange((event) => { // A função executa quando o valor do b
                 return arq
             })
 
-            setTimeout(() => { // Espero 5 segundos para preencher o repetidor
-                $w('#repeater1').data = arquivos
+            $w('#repeater1').data = arquivos
 
-                $w('#repeater1').onItemReady(async($item, itemData) => {
+            $w('#repeater1').onItemReady(async($item, itemData) => {
 
-                    $item('#imageX1').src = itemData.imageUrl
+                $item('#imageX1').src = itemData.imageUrl
 
-                })
+            })
 
-                $w('#repeater1').expand()
-            }, 5000)
+            $w('#repeater1').expand()
 
         }).catch((erro) => {
             console.log(erro.description)
