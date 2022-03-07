@@ -57,6 +57,7 @@ customElements.define('blur-effect', BlurEffect);
 // INSTRUÇÕES
 
 // For the element to work, you must have a paid plan with a domain installed.
+// The tag name of the custom element must be: blur-effect
 // You must also add the following attributes and values ​​to the custom element:
 // blur: 8
 // opacity: 0.7
@@ -67,6 +68,7 @@ customElements.define('blur-effect', BlurEffect);
 // INSTRUCTIONS
 
 // Para que o elemento funcione, você deve ter um plano pago com dominio instalado.
+// O nome da tag do elemento personalizado deve ser: blur-effect
 // Deve também adicionar ao elemento personalizado o seguintes atributos e valores:
 // blur: 8
 // opacity: 0.7
