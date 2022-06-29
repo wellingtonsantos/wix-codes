@@ -39,7 +39,7 @@ async function getPessoas () {
 	}
 	
 	// quer adicionar mais filtros além dos de cima, faça o mesmo procedimento
-	if(inclua aqui o valor do carma em questão, isso valida se o campo tem um valor ou não, se tiver executa) { // isso é uma validação
+	if( xxxxxxxxxx ) { // isso é uma validação, inclua aqui o valor do campo em questão, isso valida se o campo tem um valor ou não, se tiver executa
 		query = query.eq('work', $w('#ddWorkOptions').value)
 		// o query é nossa variavel que inicialmente tem o começo da nossa chamado ao banco e depois ela é preenchida conforme as requisições
 		// no valor de query adicione ela mesma somada ao filtro que deseja incluir
